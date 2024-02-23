@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+}
+/* #sidenav {
+    width: 3%; 
+    transition: width 0.5s; 
+    
+}
+
+#sidenav:hover {
+    width: 20%; 
+} */
+#sidenav{
+    width: 20%;
+    background-color: azure;
+}
+#bodysec{
+    width: 60%;
+}
+#pro{
+    width: 20%;
+    background-color: azure;
+}
+#logo{
+    height: 12vh;
+    font-family: cursive;
+    display: flex;
+    /* width: 100%; */
+    /* justify-content: center; */
+    align-items: center;
+}
+#lag{
+    font-size: 24px;
+    text-align: center;
+    width: 100%
+}
+#profile{
+    height: 24vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+#list{
+    height: 40vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 15px;
+}
+#imgPr{
+    width: 80px;
+    height: 80px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name{
+    font-size: 17px;
+}
+
+#email{
+    font-size: 12px;
+    font-weight: 100;
+}
+.active{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#das ,#log_o{
+    display: flex;
+    margin: 0 14px 0 4px; 
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+    gap: 10px;
+}
+
+#das:hover ,#log_o:hover{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+
+#log_o{
+    bottom: 0;
+    position:absolute;
+    margin: 10px 20px;
+}

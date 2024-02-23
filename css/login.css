@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+}
+#login, #sign{
+    height: 100vh;
+    overflow: hidden;
+    background-color: azure;   
+   
+}
+ #sign1, #sign2, #sign3{
+    height: 100vh;
+    overflow: hidden;
+    background-color: azure; 
+    display:none;  
+   
+}
+
+#sign4{
+    height: 100vh;
+    overflow: hidden;
+    background-color: azure;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#logo, #logo1,#logo2, #logo3, #logo4,#navbar{
+    height: 7vh;
+    margin: 30px 40px;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+}
+#fir, #signin{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: black;
+    overflow: hidden;
+}
+#log, #log2, #log3, #log4{
+    display: flex;
+    height: 70vh;
+    width: 60%;
+    /* background: white; */
+    box-shadow: 1px 1px 1px 2px rgb(155, 151, 151);
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 20px;
+}
+#lefta{
+    width: 50%;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    padding-left: 7%;
+}
+#welc{
+    font-size: 14px;
+}
+#lefta label{
+    margin-top: 10px;
+}
+#title1{
+    opacity: 0.7;
+    margin: 10px;
+    word-spacing: 4px;
+}
+#user, #pass{
+    width: 70%;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(5, 5, 5);
+    background-color: inherit;
+}
+#logbtn{
+    padding: 10px 30px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: cursive;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease;
+    margin: 20px 10px 20px 0px;
+    width: 70%;
+}
+#logbtn:hover, #logbtn:active{
+    background: linear-gradient(to left,pink, purple);
+    transform: scale(1.1);
+    border: none;
+}
+#google, #google1 #forgot{
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    /* text-align: center; */
+    text-decoration: none;
+    margin-top: 10px;
+}
+#forgot{
+    border: none;
+    text-align: right;
+}
+#righta{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.858), rgba(0, 0, 0, 0.858)), url("../img/ladylaptop.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    padding-bottom: 30px
+}
+#lefta h2{
+    margin-top: 20px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+#lefta span{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+#wel1{
+    margin-left: 7%;
+    font-size: 70px;
+    text-align:left;
+}
+#wel2{
+    margin-left: 3%;
+    font-size: 50px;
+    text-align:left;
+}
+#rightb{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.858), rgba(0, 0, 0, 0.858)), url("../img/ladylaptop.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 0px 0px 20px;
+    color: white;
+    padding-bottom: 30px
+}
+#con_name1{
+    width: 50%;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    padding-left: 4%;
+}
+
+#con_name1 label{
+    margin-top: 10px;
+}
+
+#rightb h4{
+    margin: 40px 30px;
+    word-spacing: 1px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+    width: 70%;
+}
+#firstName, #lastName, #email, #phone, #add, #password, #password2{
+    width: 70%;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(5, 5, 5);
+    background-color: inherit;
+}
+
+#con_name1 h2{
+    margin-top: 20px;
+    font-size: 18px;
+    opacity: 0.7;
+}    
+#btn{
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#back, #next, #back2, #next2, #back3, #next3, #next4{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+}
+#btn1{
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+#next2{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#sex h4{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#sel1 label{
+    margin-left: 34px;
+}
+#sel1 input{
+    gap: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
