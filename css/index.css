@@ -143,12 +143,19 @@ nav button {
 /* Slideshow container */
 .slideshow-container {
     max-width: 100vw;
+    max-height: 90vh;
+    
     /* position: relative; */
   }
   
   /* Hide the images by default */
 .mySlides {
     display: none;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vw;
+    justify-content: center;
+    height: 80vh;
   }
   
   /* Next & previous buttons */
@@ -170,8 +177,8 @@ nav button {
     text-align:center
   }
 #ghost, #ghost2, #ghost3{
-    width:100vw; 
-    height:90vh; 
+    width:70vw; 
+    height:80vh; 
     overflow:hidden;
   }
   /* Position the "next button" to the right */
@@ -187,21 +194,21 @@ nav button {
   
   /* Caption text */
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  /* bottom: 8px;
+  width: 100%; */
+  text-align: center;
+}
+
   /* Number text (1/3 etc) */
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
-    position: absolute;
+    /* position: absolute; */
     /* top: 0; */
   }
   
